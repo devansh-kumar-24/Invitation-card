@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Designs</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+     
+     
+
+
+      function c() {
+         var x = document.getElementById("Nme").value;
+        
+        var y = document.getElementById("Dte").value;
+        var z = document.getElementById("Mth").value;
+        var a = document.getElementById("Day").value;
+       var b = document.getElementById("Yer").value;
+       var e = document.getElementById("Venue").value;
+       var d = document.getElementById("Tme").value;
+
+
+        document.getElementById("name").innerHTML=x;
+        document.getElementById("month").innerHTML=z;
+        document.getElementById("date").innerHTML=y;
+
+document.getElementById("day").innerHTML=a;
+
+document.getElementById("time").innerHTML=d;
+        document.getElementById("venue").innerHTML=e;
+        document.getElementById("year").innerHTML=b;
+      }
+    </script>
+  </head>
+  <body>
+  
+    <div class="design">
+      <div class="form">
+        <div class="box">
+          <label for="name">Name<nbsp></label>
+          <input type="text"  id="Nme">
+            <label for="Date">Date<nbsp></label>
+          <input type="text"  id="Dte">
+            <label for="month">Month<nbsp></label>
+          <input type="text" id="Mth">
+           <label for="time">Time<nbsp></label>
+          <input type="text" id="Tme">
+             <label for="day">Day<nbsp></label>
+          <input type="text"  id="Day">
+             <label for="year">Year<nbsp></label>
+          <input type="text"  id="Yer">
+           <label for="venue">Venue<nbsp></label>
+          <input type="text" id="Venue">
+          <button id="btn" onclick="c()">click me</button>
+        </div>
+      </div>
+      <img id="img1" src="assets\d1.png" alt="no design available " />
+      <div id="name">Name</div>
+      <div id="month">Month</div>
+      <div id="date">Date</div>
+
+      <div id="year">Year</div>
+      <div id="day">Day</div>
+      <div id="time">Time</div>
+      <div id="venue">Venue</div>
+
+    </div>
+
+    
+  </body>
+</html>

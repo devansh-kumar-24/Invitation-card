@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "Better Saturday Regular";
+
+  src: local("Better Saturday Regular"),
+    url("fonts/Better Saturday free.woff") format("woff");
+}
+@font-face {
+  font-family: "GlacialIndifference Bold";
+
+  src: local("GlacialIndifference-Bold.woff"),
+    url("fonts/GlacialIndifference-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "GlacialIndifference-Reg";
+
+  src: local("GlacialIndifference-Regular.woff"),
+    url("fonts/GlacialIndifference-Regular.woff") format("woff");
+}
+
+.body {
+  margin: 0;
+}
+
+.design {
+  position: relative;
+  display: flex;
+  height: 90%;
+  width: 100%;
+}
+
+#img1 {
+  position: relative;
+  display: flex;
+  width: 34%;
+  margin-left: 40%;
+  margin-top: 3%;
+}
+
+#btn {
+  position: relative;
+  margin-top: 80%;
+  z-index: 555;
+  color: #614124;
+}
+#btn:hover {
+  cursor: pointer;
+}
+.box {
+  display: grid;
+  align-items: center;
+  position: relative;
+  top: 20%;
+  left: 50%;
+  width: 100%;
+  padding: 20%;
+  background-color: #d1cac4;
+}
+
+#name {
+  font-family: "Better Saturday Regular";
+  color: #614124;
+  position: absolute;
+  width: 70%;
+  font-size: 190%;
+  left: 33%;
+  top: 32.5%;
+  text-align: center;
+}
+
+#month {
+  font-family: "GlacialIndifference-Reg";
+  color: #614124;
+  position: absolute;
+  width: 13%;
+  font-weight: lighter;
+  top: 57.5%;
+  font-size: 130%;
+  left: 61.5%;
+  text-align: center;
+}
+#date {
+  font-family: "GlacialIndifference bold";
+  font-size: 40px;
+  position: absolute;
+  width: 12%;
+  left: 62%;
+  top: 60%;
+  text-align: center;
+  color: #614124;
+}
+#year {
+  font-family: "GlacialIndifference-Reg";
+  font-size: 150%;
+  position: absolute;
+  width: 10%;
+  top: 66.5%;
+  left: 63%;
+
+  text-align: center;
+  color: #614124;
+}
+#day {
+  font-family: "GlacialIndifference-Reg";
+  font-size: 120%;
+  position: absolute;
+  width: 11.5%;
+  top: 61.8%;
+  left: 55%;
+  color: #614124;
+  text-align: center;
+}
+
+#time {
+  font-family: "GlacialIndifference-Reg";
+  font-size: 120%;
+  position: absolute;
+  width: 20%;
+  top: 61.7%;
+  left: 65.5%;
+  color: #614124;
+  text-align: center;
+}
+#venue {
+  font-family: "GlacialIndifference-Reg";
+  font-size: 120%;
+  position: absolute;
+  width: 15%;
+  text-align: center;
+  top: 71.3%;
+  left: 60.5%;
+  color: #614124;
+}
+
+@media only screen and (max-width: 704px) {
+  .form {
+    position: absolute;
+    top: 110%;
+    left: 19%;
+  }
+
+  .design {
+    position: absolute;
+    text-align: center;
+  }
+  #img1 {
+    position: relative;
+    display: flex;
+    width: 68%;
+    margin-left: 17%;
+    margin-top: 3%;
+  }
+  #name {
+    font-family: "Better Saturday Regular";
+    color: #614124;
+    position: absolute;
+    width: 70%;
+    font-size: 190%;
+    left: 16%;
+    top: 31%;
+    text-align: center;
+  }
+
+  #month {
+    font-family: "GlacialIndifference-Reg";
+    color: #614124;
+    position: absolute;
+    width: 13%;
+    font-weight: lighter;
+    top: 55%;
+    font-size: 140%;
+    left: 44.5%;
+    text-align: center;
+  }
+  #date {
+    font-family: "GlacialIndifference bold";
+    font-size: 40px;
+    position: absolute;
+    width: 12%;
+    left: 45%;
+    top: 58.5%;
+
+    text-align: center;
+    color: #614124;
+  }
+  #year {
+    font-family: "GlacialIndifference-Reg";
+    font-size: 150%;
+    position: absolute;
+    width: 10%;
+    top: 66%;
+    left: 46%;
+
+    text-align: center;
+    color: #614124;
+  }
+  #day {
+    font-family: "GlacialIndifference-Reg";
+    font-size: 120%;
+    position: absolute;
+    width: 11.5%;
+    top: 60.4%;
+    left: 30.7%;
+    color: #614124;
+    text-align: center;
+  }
+
+  #time {
+    font-family: "GlacialIndifference-Reg";
+    font-size: 120%;
+    position: absolute;
+    width: 20%;
+    top: 60.4%;
+    left: 56%;
+    color: #614124;
+    text-align: center;
+  }
+  #venue {
+    font-family: "GlacialIndifference-Reg";
+    font-size: 120%;
+    position: absolute;
+    width: 30%;
+    text-align: center;
+    top: 71.3%;
+    left: 36%;
+    color: #614124;
+  }
+}
